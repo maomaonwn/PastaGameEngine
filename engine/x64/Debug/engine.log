@@ -1,0 +1,4 @@
+﻿  windowInit.c
+C:\Programming\Windows SDK\GameEngine\engine\windowInit.c(49,32): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Programming\Windows SDK\GameEngine\engine\windowInit.c(55,33): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  engine.vcxproj -> C:\Programming\Windows SDK\GameEngine\x64\Debug\engine.exe

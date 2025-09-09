@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programming\\Windows SDK\\GameEngine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|C:\\Programming\\Windows SDK\\GameEngine\\engine\\windowInit.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|solutionrelative:engine\\windowInit.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "windowInit.c",
+              "DocumentMoniker": "C:\\Programming\\Windows SDK\\GameEngine\\engine\\windowInit.c",
+              "RelativeDocumentMoniker": "engine\\windowInit.c",
+              "ToolTip": "C:\\Programming\\Windows SDK\\GameEngine\\engine\\windowInit.c",
+              "RelativeToolTip": "engine\\windowInit.c",
+              "ViewState": "AgIAADEAAAAAAAAAAAAuwEYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-14T04:25:23.784Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
