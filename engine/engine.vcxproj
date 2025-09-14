@@ -123,17 +123,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="engine.h" />
+    <ClInclude Include="engine_input.h" />
+    <ClInclude Include="engine_render.h" />
+    <ClInclude Include="engine_resource.h" />
+    <ClInclude Include="engine_timer.h" />
+    <ClInclude Include="engine_window.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="engine.cpp" />
-    <ClCompile Include="messageError.c">
+    <ClCompile Include="engine_input.c" />
+    <ClCompile Include="engine_render.c" />
+    <ClCompile Include="engine_resource.c" />
+    <ClCompile Include="engine_timer.c" />
+    <ClCompile Include="engine_window.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="REF.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="windowInit.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="engine.rc" />

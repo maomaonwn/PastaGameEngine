@@ -1,2 +1,2 @@
-C:\Programming\Windows SDK\GameEngine\engine\engine.cpp;C:\Programming\Windows SDK\GameEngine\engine\x64\Debug\engine.obj
-C:\Programming\Windows SDK\GameEngine\engine\windowInit.c;C:\Programming\Windows SDK\GameEngine\engine\x64\Debug\windowInit.obj
+C:\Programming\Windows SDK\GameEngine\engine\engine_window.c;C:\Programming\Windows SDK\GameEngine\engine\x64\Debug\engine_window.obj
+C:\Programming\Windows SDK\GameEngine\engine\main.c;C:\Programming\Windows SDK\GameEngine\engine\x64\Debug\main.obj

@@ -24,18 +24,42 @@
     <ClInclude Include="Resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="engine.h">
+    <ClInclude Include="engine_window.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_render.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="engine.cpp">
+    <ClCompile Include="REF.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="messageError.c">
+    <ClCompile Include="engine_window.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="windowInit.c">
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_render.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_input.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_timer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_resource.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
