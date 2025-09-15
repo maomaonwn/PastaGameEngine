@@ -4,4 +4,9 @@
 #include <windows.h>
 #include "resource.h"
 
-#endif #pragma once
+void EngineTimer_Init();
+void EngineTimer_Tick();
+float EngineTimer_GetDeltaTime();
+float EngineTimer_GetTime();
+
+#endif 
