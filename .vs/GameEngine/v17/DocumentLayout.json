@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Programming\\Windows SDK\\GameEngine\\",
+  "WorkspaceRootPath": "C:\\Programming\\UnityGit\\PastaGameEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|C:\\Programming\\Windows SDK\\GameEngine\\engine\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|solutionrelative:engine\\engine_input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_input.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|solutionrelative:engine\\engine_input.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|solutionrelative:engine\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "engine_input.h",
+              "DocumentMoniker": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_input.h",
+              "RelativeDocumentMoniker": "engine\\engine_input.h",
+              "ToolTip": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_input.h",
+              "RelativeToolTip": "engine\\engine_input.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-15T14:15:58.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "engine_input.c",
+              "DocumentMoniker": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_input.c",
+              "RelativeDocumentMoniker": "engine\\engine_input.c",
+              "ToolTip": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_input.c",
+              "RelativeToolTip": "engine\\engine_input.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-15T12:48:46.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Programming\\Windows SDK\\GameEngine\\engine\\main.c",
+              "DocumentMoniker": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\main.c",
               "RelativeDocumentMoniker": "engine\\main.c",
-              "ToolTip": "C:\\Programming\\Windows SDK\\GameEngine\\engine\\main.c",
+              "ToolTip": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\main.c",
               "RelativeToolTip": "engine\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-14T09:28:51.468Z",
               "EditorCaption": ""
