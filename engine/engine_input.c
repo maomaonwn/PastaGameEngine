@@ -1,3 +1,5 @@
+#include <windows.h>
+#include "resource.h"
 #include "engine_input.h"
 
 static BOOL key_states[256] = { 0 };

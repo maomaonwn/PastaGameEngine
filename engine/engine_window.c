@@ -1,3 +1,5 @@
+#include <windows.h>
+#include "resource.h"
 #include "engine_window.h"
 
 static HWND hWnd = NULL;

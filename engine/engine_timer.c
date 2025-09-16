@@ -1,3 +1,5 @@
+#include <windows.h>
+#include "resource.h"
 #include "engine_timer.h"
 
 static LARGE_INTEGER freq, last_tick, now_tick;
