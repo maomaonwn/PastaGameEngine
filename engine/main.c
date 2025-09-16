@@ -10,16 +10,19 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	BOOL running = TRUE;
 	while (running)
 	{
+		//主动轮询式消息循环
 		while (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE))
 		{
-			if (msg.message = WM_QUIT)running = FALSE;
+			if (msg.message == WM_QUIT)running = FALSE;
 
+			//翻译消息
 			TranslateMessage(&msg);
+			//分发消息
 			DispatchMessage(&msg);
 		}
 
 		//在这里实现主循环逻辑
-		
+
 #pragma region 基础系统的调用
 		//定时器滴答
 		EngineTimer_Tick();

@@ -40,11 +40,15 @@ BOOL EngineWindow_Init(HINSTANCE hInstance, int nCmdShow)
 #pragma region 生成引擎主窗口
 	//获取主窗口的窗口句柄
 	hWnd = CreateWindow(TEXT("Main"), "Pasta Game Engine", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, 800, 600, NULL, NULL, hInstance, NULL);
-	if (!hWnd)return FALSE;
+	if (!hWnd) {
+		MessageBox(NULL, "窗口创建失败!", "错误", MB_OK | MB_ICONERROR);
+		return FALSE;
+	}
 
 	//生成主窗口
 	ShowWindow(hWnd,nCmdShow);
 	UpdateWindow(hWnd);
+
 	return TRUE;
 #pragma endregion
 }
@@ -67,7 +71,17 @@ HWND EngineWindow_GetHWND()
 /// <param name="wParam"></param>
 /// <param name="lParam"></param>
 /// <returns></returns>
-LRESULT CALLBACK EngineWndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
+LRESULT CALLBACK EngineWndProc(HWND hWnd, UINT msgId, WPARAM wParam, LPARAM lParam)
 {
-	return DefWindowProc(hWnd, msg, wParam, lParam);
+	//根据消息Id处理不同的消息
+	switch (msgId)
+	{
+		//销毁时产生的消息
+		case WM_DESTROY:
+			PostQuitMessage(0);	//发送WM_QUIT退出消息
+			break;
+	}
+
+	//系统处理其他消息
+	return DefWindowProc(hWnd, msgId, wParam, lParam);
 }
