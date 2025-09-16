@@ -1,6 +1,6 @@
 #include <windows.h>
 #include "resource.h"
-#include "engine_timer.h"
+#include "engine_system.h"
 
 static LARGE_INTEGER freq, last_tick, now_tick;
 static float delta_time = 0.0f;

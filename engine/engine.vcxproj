@@ -126,6 +126,7 @@
     <ClInclude Include="engine_input.h" />
     <ClInclude Include="engine_render.h" />
     <ClInclude Include="engine_resource.h" />
+    <ClInclude Include="engine_system.h" />
     <ClInclude Include="engine_timer.h" />
     <ClInclude Include="engine_window.h" />
     <ClInclude Include="framework.h" />

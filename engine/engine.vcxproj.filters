@@ -39,6 +39,9 @@
     <ClInclude Include="engine_resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="engine_system.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="REF.c">
