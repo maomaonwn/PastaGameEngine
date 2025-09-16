@@ -1,4 +1,6 @@
-﻿  engine_window.c
-  main.c
-  正在生成代码...
-  engine.vcxproj -> C:\Programming\Windows SDK\GameEngine\x64\Debug\engine.exe
+﻿  main.c
+C:\Programming\UnityGit\PastaGameEngine\engine\main.c(25,3): warning C4013: “EngineTimer_Tick”未定义；假设外部返回 int
+C:\Programming\UnityGit\PastaGameEngine\engine\main.c(31,3): warning C4013: “EngineRender_Init”未定义；假设外部返回 int
+C:\Programming\UnityGit\PastaGameEngine\engine\main.c(33,3): warning C4013: “EngineRender_DrawRect”未定义；假设外部返回 int
+C:\Programming\UnityGit\PastaGameEngine\engine\main.c(36,3): warning C4013: “EngineRender_Release”未定义；假设外部返回 int
+  engine.vcxproj -> C:\Programming\UnityGit\PastaGameEngine\x64\Debug\engine.exe

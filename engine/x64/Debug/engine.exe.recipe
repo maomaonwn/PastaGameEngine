@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Programming\Windows SDK\GameEngine\x64\Debug\engine.exe</FullPath>
+      <FullPath>C:\Programming\UnityGit\PastaGameEngine\x64\Debug\engine.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

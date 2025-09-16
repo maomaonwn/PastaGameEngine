@@ -20,6 +20,22 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 		//在这里实现主循环逻辑
 		
+#pragma region 基础系统的调用
+		//定时器滴答
+		EngineTimer_Tick();
+
+		//获取窗口句柄（默认是主窗口的句柄）
+		HWND hWnd = EngineWindow_GetHWND();
+
+		//渲染初始化
+		EngineRender_Init(hWnd);
+#pragma region 渲染更新
+		EngineRender_DrawRect(100, 100, 200, 150, RGB(255, 0, 0));
+#pragma endregion
+		//渲染结束
+		EngineRender_Release(hWnd);
+
+#pragma endregion
 	}
 	return 0;
 }
