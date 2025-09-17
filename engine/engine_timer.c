@@ -21,5 +21,15 @@ void EngineTimer_Tick()
 	last_tick = now_tick;
 }
 
+/// <summary>
+/// 手动销毁指定定时器
+/// </summary>
+/// <param name="hWnd"></param>
+/// <param name="timerId"></param>
+void EngineTimer_Destroy(HWND hWnd,int timerId)
+{
+	KillTimer(hWnd, timerId);
+}
+
 float EngineTimer_GetDeltaTime() { return delta_time; }
 float EngineTimer_GetTime() { return total_time; }

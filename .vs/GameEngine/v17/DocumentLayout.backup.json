@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|solutionrelative:engine\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_window.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|solutionrelative:engine\\engine_window.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_timer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|solutionrelative:engine\\engine_timer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\REF.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|solutionrelative:engine\\REF.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_timer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|solutionrelative:engine\\engine_timer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_window.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F7CD341-CFE9-40C7-8550-24259396AAD4}|engine\\engine.vcxproj|solutionrelative:engine\\engine_window.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,29 +26,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "engine_timer.c",
               "DocumentMoniker": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_timer.c",
               "RelativeDocumentMoniker": "engine\\engine_timer.c",
               "ToolTip": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_timer.c",
               "RelativeToolTip": "engine\\engine_timer.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-09-16T03:19:51.824Z"
+              "WhenOpened": "2025-09-16T03:19:51.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "engine_window.c",
               "DocumentMoniker": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_window.c",
               "RelativeDocumentMoniker": "engine\\engine_window.c",
               "ToolTip": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\engine_window.c",
               "RelativeToolTip": "engine\\engine_window.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-16T03:15:17.599Z",
               "EditorCaption": ""
@@ -61,7 +62,7 @@
               "RelativeDocumentMoniker": "engine\\main.c",
               "ToolTip": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\main.c",
               "RelativeToolTip": "engine\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-16T02:34:07.806Z",
               "EditorCaption": ""
@@ -74,12 +75,12 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "31979296-4b5d-418f-830b-e5be07949269",
+        "Id": "ef60d957-d34e-4075-abb1-a111b06b0223",
         "Display": 0,
-        "X": 28,
-        "Y": 329,
-        "Width": 685,
-        "Height": 541,
+        "X": 935,
+        "Y": 129,
+        "Width": 1249,
+        "Height": 638,
         "WindowState": 0
       },
       "DocumentGroups": [
@@ -95,9 +96,9 @@
               "RelativeDocumentMoniker": "engine\\REF.c",
               "ToolTip": "C:\\Programming\\UnityGit\\PastaGameEngine\\engine\\REF.c",
               "RelativeToolTip": "engine\\REF.c",
-              "ViewState": "AgIAAIoAAAAAAAAAAADwv5IAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-09-16T02:43:05.134Z",
+              "WhenOpened": "2025-09-17T00:37:12.131Z",
               "EditorCaption": ""
             }
           ]
