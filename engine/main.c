@@ -1,9 +1,13 @@
 #include <windows.h>
-#include "engine_window.h"
+#include "engine_system.h"
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
-{
+{	
 	EngineWindow_Init(hInstance, nCmdShow);
+	InitGameLifeCycle();
+
+	//ENTER生命周期
+	if (ENTER)ENTER();
 
 	//游戏主循环
 	MSG msg;
@@ -37,8 +41,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 #pragma endregion
 		//渲染结束
 		EngineRender_Release(hWnd);
-
 #pragma endregion
+
+		//UPDATE生命周期
+		if (UPDATE)UPDATE();
 	}
+
+	//EXIT生命周期
+	if (EXIT)EXIT();
 	return 0;
 }

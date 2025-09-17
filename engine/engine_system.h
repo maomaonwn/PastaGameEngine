@@ -9,6 +9,7 @@
 #include "engine_system.h"
 #include "engine_timer.h"
 #include "engine_window.h"
+#include "engine_game.h"
 
 #endif 
 

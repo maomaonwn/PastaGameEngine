@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="engine_game.h" />
     <ClInclude Include="engine_input.h" />
     <ClInclude Include="engine_render.h" />
     <ClInclude Include="engine_resource.h" />
@@ -132,8 +133,10 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="user.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="engine_game.c" />
     <ClCompile Include="engine_input.c" />
     <ClCompile Include="engine_render.c" />
     <ClCompile Include="engine_resource.c" />
@@ -143,6 +146,7 @@
     <ClCompile Include="REF.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="user.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="engine.rc" />
