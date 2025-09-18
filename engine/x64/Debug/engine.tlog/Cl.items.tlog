@@ -2,6 +2,7 @@ C:\Programming\UnityGit\PastaGameEngine\engine\engine_game.c;C:\Programming\Unit
 C:\Programming\UnityGit\PastaGameEngine\engine\engine_input.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\engine_input.obj
 C:\Programming\UnityGit\PastaGameEngine\engine\engine_render.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\engine_render.obj
 C:\Programming\UnityGit\PastaGameEngine\engine\engine_resource.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\engine_resource.obj
+C:\Programming\UnityGit\PastaGameEngine\engine\engine_std.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\engine_std.obj
 C:\Programming\UnityGit\PastaGameEngine\engine\engine_timer.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\engine_timer.obj
 C:\Programming\UnityGit\PastaGameEngine\engine\engine_window.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\engine_window.obj
 C:\Programming\UnityGit\PastaGameEngine\engine\main.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\main.obj

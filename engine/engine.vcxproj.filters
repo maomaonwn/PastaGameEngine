@@ -48,6 +48,9 @@
     <ClInclude Include="user.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="engine_std.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="REF.c">
@@ -75,6 +78,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="user.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_std.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -127,6 +127,7 @@
     <ClInclude Include="engine_input.h" />
     <ClInclude Include="engine_render.h" />
     <ClInclude Include="engine_resource.h" />
+    <ClInclude Include="engine_std.h" />
     <ClInclude Include="engine_system.h" />
     <ClInclude Include="engine_timer.h" />
     <ClInclude Include="engine_window.h" />
@@ -140,6 +141,7 @@
     <ClCompile Include="engine_input.c" />
     <ClCompile Include="engine_render.c" />
     <ClCompile Include="engine_resource.c" />
+    <ClCompile Include="engine_std.c" />
     <ClCompile Include="engine_timer.c" />
     <ClCompile Include="engine_window.c" />
     <ClCompile Include="main.c" />

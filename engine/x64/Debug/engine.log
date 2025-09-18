@@ -1,14 +1,2 @@
-﻿  engine_game.c
-  engine_input.c
-C:\Programming\UnityGit\PastaGameEngine\engine\engine_game.c(16,11): warning C4113: “void (__cdecl *)()”和“GameCallBack”的参数列表不同
-C:\Programming\UnityGit\PastaGameEngine\engine\engine_game.c(17,12): warning C4113: “void (__cdecl *)()”和“GameCallBack”的参数列表不同
-C:\Programming\UnityGit\PastaGameEngine\engine\engine_game.c(18,10): warning C4113: “void (__cdecl *)()”和“GameCallBack”的参数列表不同
-  engine_render.c
-  engine_resource.c
-C:\Programming\UnityGit\PastaGameEngine\engine\engine_resource.c(7,2): warning C4098: “EngineResource_LoadBitmap”:“void”函数返回值
-  engine_timer.c
-  engine_window.c
-  main.c
-  user.c
-  正在生成代码...
+﻿  engine_std.c
   engine.vcxproj -> C:\Programming\UnityGit\PastaGameEngine\x64\Debug\engine.exe

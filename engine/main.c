@@ -4,6 +4,7 @@
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {	
 	EngineWindow_Init(hInstance, nCmdShow);
+	AttachConsoleForDebug(); //分配用于标准输入输出调试的控制台
 	InitGameLifeCycle();
 
 	//ENTER生命周期
