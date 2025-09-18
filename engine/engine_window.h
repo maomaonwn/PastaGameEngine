@@ -1,7 +1,5 @@
-#ifndef ENGINE_WINDOW_H
-#define ENGINE_WINDOW_H
+#pragma once
 
 BOOL EngineWindow_Init(HINSTANCE hInstance, int nCmdShow);
 HWND EngineWindow_GetHWND();
 
-#endif

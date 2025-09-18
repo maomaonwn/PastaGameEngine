@@ -1,6 +1,4 @@
-#ifndef ENGINE_RESOURCE_H
-#define ENGINE_RESOURCE_H
+#pragma once
 
 void EngineResource_LoadBitmap(const char* filename);
 
-#endif

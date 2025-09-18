@@ -1,8 +1,6 @@
-#ifndef USER_H
-#define USER_H
+#pragma once
 
 extern void OnEnter();
 extern void OnUpdate();
 extern void OnExit();
 
-#endif

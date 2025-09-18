@@ -1,5 +1,4 @@
-#ifndef ENGINE_GAME_H
-#define ENGINE_GAME_H
+#pragma once
 
 //定义void (*)void类型的函数指针
 typedef void (*GameCallBack)(void);
@@ -13,6 +12,5 @@ void SetUpdate(GameCallBack func);
 void SetExit(GameCallBack func);
 void InitGameLifeCycle();
 
-#endif
 
 

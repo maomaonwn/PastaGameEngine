@@ -1,7 +1,6 @@
 //集成所有底层系统头文件的头文件
 
-#ifndef ENGINE_SYSTEM_H
-#define ENGINE_SYSTEM_H
+#pragma once
 
 #include "engine_input.h"
 #include "engine_render.h"
@@ -11,5 +10,5 @@
 #include "engine_window.h"
 #include "engine_game.h"
 
-#endif 
+
 
