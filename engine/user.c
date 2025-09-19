@@ -1,6 +1,8 @@
-#include <windows.h>	//测试用
-#include "engine_game.h"
 #include "user.h"
+
+/**************在此自定义添加C语言标准库头文件**************/
+#include <stdio.h>
+/***********************************************************/
 
 void OnEnter()
 {
