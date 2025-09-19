@@ -13,42 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\ENGINE_SYSTEM">
+      <UniqueIdentifier>{77470daf-bb2b-4c1a-b3fe-9c62fafac712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ENGINE_SYSTEM_H">
+      <UniqueIdentifier>{93ac75f4-6bc8-4721-b561-7362c3e3b02a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="engine_window.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="engine_render.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="engine_input.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="engine_timer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="engine_resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="engine_system.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="engine_game.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\ENGINE_SYSTEM_H</Filter>
     </ClInclude>
-    <ClInclude Include="user.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="engine_input.h">
+      <Filter>头文件\ENGINE_SYSTEM_H</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_render.h">
+      <Filter>头文件\ENGINE_SYSTEM_H</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_resource.h">
+      <Filter>头文件\ENGINE_SYSTEM_H</Filter>
     </ClInclude>
     <ClInclude Include="engine_std.h">
+      <Filter>头文件\ENGINE_SYSTEM_H</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_timer.h">
+      <Filter>头文件\ENGINE_SYSTEM_H</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_window.h">
+      <Filter>头文件\ENGINE_SYSTEM_H</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件\ENGINE_SYSTEM_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\ENGINE_SYSTEM_H</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\ENGINE_SYSTEM_H</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -56,32 +62,32 @@
     <ClCompile Include="REF.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="engine_window.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="main.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="engine_render.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="engine_input.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="engine_timer.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="engine_resource.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="engine_game.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="user.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="engine_game.c">
+      <Filter>源文件\ENGINE_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_input.c">
+      <Filter>源文件\ENGINE_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_render.c">
+      <Filter>源文件\ENGINE_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_resource.c">
+      <Filter>源文件\ENGINE_SYSTEM</Filter>
+    </ClCompile>
     <ClCompile Include="engine_std.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\ENGINE_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_timer.c">
+      <Filter>源文件\ENGINE_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_window.c">
+      <Filter>源文件\ENGINE_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件\ENGINE_SYSTEM</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
