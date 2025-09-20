@@ -13,11 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\ENGINE_SYSTEM">
-      <UniqueIdentifier>{77470daf-bb2b-4c1a-b3fe-9c62fafac712}</UniqueIdentifier>
-    </Filter>
     <Filter Include="头文件\ENGINE_SYSTEM_H">
       <UniqueIdentifier>{93ac75f4-6bc8-4721-b561-7362c3e3b02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ENGINE_SYSTEM">
+      <UniqueIdentifier>{77470daf-bb2b-4c1a-b3fe-9c62fafac712}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

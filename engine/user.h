@@ -1,6 +1,13 @@
 #pragma once
 
-extern void OnEnter();
-extern void OnUpdate();
-extern void OnExit();
+#ifdef _cplusplus
+extern "C" {
+#endif
 
+void OnEnter();
+void OnUpdate();
+void OnExit();
+
+#ifdef _cplusplus
+}
+#endif
