@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="engine_api.h" />
     <ClInclude Include="engine_game.h" />
     <ClInclude Include="engine_input.h" />
     <ClInclude Include="engine_render.h" />
@@ -137,6 +138,7 @@
     <ClInclude Include="user.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="engine_debug.c" />
     <ClCompile Include="engine_game.c" />
     <ClCompile Include="engine_input.c" />
     <ClCompile Include="engine_render.c" />
