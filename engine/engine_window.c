@@ -1,6 +1,7 @@
 #include <windows.h>
 #include "resource.h"
 #include "engine_window.h"
+#include "engine_editor.h"
 
 static HWND hWnd = NULL;
 
@@ -49,15 +50,24 @@ BOOL EngineWindow_Init(HINSTANCE hInstance, int nCmdShow)
 	ShowWindow(hWnd,nCmdShow);
 	UpdateWindow(hWnd);
 
+#pragma endregion
+
+#pragma region 生成其他窗口
+
+	HWND hLogWindow = CreateLogWindow(hWnd, hInstance);
+	ShowWindow(hLogWindow, nCmdShow);
+	UpdateWindow(hLogWindow);
+
 	return TRUE;
+
 #pragma endregion
 }
 
 /// <summary>
-/// 获取窗口的窗口句柄
+/// 获取主窗口的窗口句柄
 /// </summary>
 /// <returns></returns>
-HWND EngineWindow_GetHWND()
+HWND EngineMainWindow_GetHWND()
 {
 	return hWnd;
 }

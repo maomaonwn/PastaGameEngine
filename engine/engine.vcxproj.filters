@@ -66,6 +66,9 @@
     <ClInclude Include="engine_api.h">
       <Filter>头文件\ENGINE_API_H</Filter>
     </ClInclude>
+    <ClInclude Include="engine_editor.h">
+      <Filter>头文件\ENGINE_SYSTEM_H</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="REF.c">
@@ -100,6 +103,9 @@
     </ClCompile>
     <ClCompile Include="engine_debug.c">
       <Filter>源文件\ENGINE_API</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_editor.c">
+      <Filter>源文件\ENGINE_SYSTEM</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

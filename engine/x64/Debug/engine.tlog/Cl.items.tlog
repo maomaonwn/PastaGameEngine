@@ -1,4 +1,5 @@
 C:\Programming\UnityGit\PastaGameEngine\engine\engine_debug.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\engine_debug.obj
+C:\Programming\UnityGit\PastaGameEngine\engine\engine_editor.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\engine_editor.obj
 C:\Programming\UnityGit\PastaGameEngine\engine\engine_game.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\engine_game.obj
 C:\Programming\UnityGit\PastaGameEngine\engine\engine_input.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\engine_input.obj
 C:\Programming\UnityGit\PastaGameEngine\engine\engine_render.c;C:\Programming\UnityGit\PastaGameEngine\engine\x64\Debug\engine_render.obj

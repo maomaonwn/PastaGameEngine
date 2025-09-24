@@ -32,13 +32,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		//定时器滴答
 		EngineTimer_Tick();
 
-		//获取窗口句柄（默认是主窗口的句柄）
-		HWND hWnd = EngineWindow_GetHWND();
+		//获取主窗口句柄
+		HWND hWnd = EngineMainWindow_GetHWND();
 
 		//渲染初始化
 		EngineRender_Init(hWnd);
 #pragma region 渲染更新
-		EngineRender_DrawRect(100, 100, 200, 150, RGB(255, 0, 0));
+		//EngineRender_DrawRect(100, 100, 200, 150, RGB(255, 0, 0));
 #pragma endregion
 		//渲染结束
 		EngineRender_Release(hWnd);

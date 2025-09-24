@@ -1,2 +1,8 @@
-﻿  user.c
+﻿  engine_debug.c
+  engine_editor.c
+C:\Programming\UnityGit\PastaGameEngine\engine\engine_debug.c(20,6): warning C4029: 声明的形参表不同于定义
+  engine_timer.c
+  engine_window.c
+  main.c
+  正在生成代码...
   engine.vcxproj -> C:\Programming\UnityGit\PastaGameEngine\x64\Debug\engine.exe
