@@ -1,0 +1,32 @@
+# Visual Studio 构建输出
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.log
+*.tlog/
+*.res
+*.recipe
+*.lastbuildstate
+*.idb
+
+# Visual Studio 本地文件
+.vs/
+*.aps
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.opendb
+*.db
+*.db-shm
+*.db-wal
+*.ipch
