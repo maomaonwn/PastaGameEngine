@@ -1,18 +1,20 @@
 #include "user.h"
 #include "engine_api.h"
 
-/**************在此自定义添加C语言标准库头文件**************/
+/**************鍦ㄦ鑷畾涔夋坊鍔燙璇█鏍囧噯搴撳ご鏂囦欢**************/
 #include <stdio.h>
 /***********************************************************/
 
 void OnEnter()
 {
-	DebugLogEx(LOGERROR, "出现问题！");
+	DebugLog("Game started.");
 }
 
 void OnUpdate()
 {
-	
+	EngineRender_DrawRect(50, 50, 200, 120, RGB(30, 120, 200));
+	EngineRender_DrawRectOutline(50, 50, 200, 120, RGB(255, 255, 255));
+	EngineRender_DrawText("PastaEngine Running", 60, 80, RGB(255, 255, 255));
 }
 
 void OnExit()
