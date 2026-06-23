@@ -1,4 +1,6 @@
 #pragma once
 
-void EngineResource_LoadBitmap(const char* filename);
+#include <windows.h>
 
+HBITMAP EngineResource_LoadBitmap(const char* filename);
+void EngineResource_FreeBitmap(HBITMAP hBitmap);
